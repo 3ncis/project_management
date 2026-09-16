@@ -1,0 +1,169 @@
+{
+  "_framework-BzMsDkFz.js": {
+    "file": "_next/static/chunks/framework-BzMsDkFz.js",
+    "name": "framework",
+    "imports": [
+      "_rolldown-runtime-C5USp2td.js"
+    ]
+  },
+  "_navigation-errors-CZsdmFId.js": {
+    "file": "_next/static/chunks/navigation-errors-CZsdmFId.js",
+    "name": "navigation-errors",
+    "imports": [
+      "_rolldown-runtime-C5USp2td.js",
+      "_framework-BzMsDkFz.js"
+    ]
+  },
+  "_rolldown-runtime-C5USp2td.js": {
+    "file": "_next/static/chunks/rolldown-runtime-C5USp2td.js",
+    "name": "rolldown-runtime"
+  },
+  "app/components/LoginForm.tsx": {
+    "file": "_next/static/chunks/LoginForm-Bqgg-17N.js",
+    "name": "LoginForm",
+    "src": "app/components/LoginForm.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-C5USp2td.js",
+      "_framework-BzMsDkFz.js"
+    ]
+  },
+  "app/components/NibUploader.tsx": {
+    "file": "_next/static/chunks/NibUploader-DR1WgYtM.js",
+    "name": "NibUploader",
+    "src": "app/components/NibUploader.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-C5USp2td.js",
+      "virtual:vinext-app-browser-entry",
+      "_framework-BzMsDkFz.js"
+    ],
+    "dynamicImports": [
+      "node_modules/pdfjs-dist/legacy/build/pdf.mjs",
+      "node_modules/pdfjs-dist/legacy/build/pdf.worker.min.mjs?raw",
+      "node_modules/tesseract.js/src/index.js"
+    ]
+  },
+  "app/components/OpportunityPicks.tsx": {
+    "file": "_next/static/chunks/OpportunityPicks-Cd4m9JPU.js",
+    "name": "OpportunityPicks",
+    "src": "app/components/OpportunityPicks.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-C5USp2td.js",
+      "_framework-BzMsDkFz.js"
+    ]
+  },
+  "app/components/ProcurementSourceManager.tsx": {
+    "file": "_next/static/chunks/ProcurementSourceManager-BC9Vl5uR.js",
+    "name": "ProcurementSourceManager",
+    "src": "app/components/ProcurementSourceManager.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-C5USp2td.js",
+      "_framework-BzMsDkFz.js"
+    ]
+  },
+  "app/components/TenderNotifications.tsx": {
+    "file": "_next/static/chunks/TenderNotifications-Do1PUT1u.js",
+    "name": "TenderNotifications",
+    "src": "app/components/TenderNotifications.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-C5USp2td.js",
+      "virtual:vinext-app-browser-entry",
+      "_framework-BzMsDkFz.js"
+    ]
+  },
+  "app/components/TenderSearchTrigger.tsx": {
+    "file": "_next/static/chunks/TenderSearchTrigger-BdIsfS0P.js",
+    "name": "TenderSearchTrigger",
+    "src": "app/components/TenderSearchTrigger.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-C5USp2td.js",
+      "_framework-BzMsDkFz.js"
+    ]
+  },
+  "app/components/UserManagement.tsx": {
+    "file": "_next/static/chunks/UserManagement-BEIYEcE4.js",
+    "name": "UserManagement",
+    "src": "app/components/UserManagement.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-C5USp2td.js",
+      "virtual:vinext-app-browser-entry",
+      "_framework-BzMsDkFz.js"
+    ]
+  },
+  "node_modules/pdfjs-dist/legacy/build/pdf.mjs": {
+    "file": "_next/static/chunks/pdf--zK5fl5H.js",
+    "name": "pdf",
+    "src": "node_modules/pdfjs-dist/legacy/build/pdf.mjs",
+    "isDynamicEntry": true,
+    "imports": [
+      "virtual:vinext-app-browser-entry"
+    ]
+  },
+  "node_modules/pdfjs-dist/legacy/build/pdf.worker.min.mjs?raw": {
+    "file": "_next/static/chunks/pdf.worker.min-BH43bJTd.js",
+    "name": "pdf.worker.min",
+    "src": "node_modules/pdfjs-dist/legacy/build/pdf.worker.min.mjs?raw",
+    "isDynamicEntry": true
+  },
+  "node_modules/tesseract.js/src/index.js": {
+    "file": "_next/static/chunks/src-BtGi4Qe6.js",
+    "name": "src",
+    "src": "node_modules/tesseract.js/src/index.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-C5USp2td.js"
+    ]
+  },
+  "node_modules/vinext/dist/shims/image.js": {
+    "file": "_next/static/chunks/image-c6FwxH5Z.js",
+    "name": "image",
+    "src": "node_modules/vinext/dist/shims/image.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-C5USp2td.js",
+      "virtual:vinext-app-browser-entry",
+      "_framework-BzMsDkFz.js"
+    ]
+  },
+  "node_modules/vinext/dist/shims/layout-segment-context.js": {
+    "file": "_next/static/chunks/layout-segment-context-3jyIZa7A.js",
+    "name": "layout-segment-context",
+    "src": "node_modules/vinext/dist/shims/layout-segment-context.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-C5USp2td.js",
+      "virtual:vinext-app-browser-entry",
+      "_framework-BzMsDkFz.js",
+      "_navigation-errors-CZsdmFId.js"
+    ]
+  },
+  "virtual:vinext-app-browser-entry": {
+    "file": "_next/static/chunks/index-Por7ykZN.js",
+    "name": "index",
+    "src": "virtual:vinext-app-browser-entry",
+    "isEntry": true,
+    "imports": [
+      "_rolldown-runtime-C5USp2td.js",
+      "_framework-BzMsDkFz.js",
+      "_navigation-errors-CZsdmFId.js"
+    ],
+    "dynamicImports": [
+      "virtual:vinext-app-browser-entry",
+      "app/components/OpportunityPicks.tsx",
+      "app/components/TenderNotifications.tsx",
+      "node_modules/vinext/dist/shims/layout-segment-context.js",
+      "app/components/UserManagement.tsx",
+      "app/components/TenderSearchTrigger.tsx",
+      "app/components/NibUploader.tsx",
+      "node_modules/vinext/dist/shims/image.js",
+      "app/components/LoginForm.tsx",
+      "app/components/ProcurementSourceManager.tsx"
+    ]
+  }
+}

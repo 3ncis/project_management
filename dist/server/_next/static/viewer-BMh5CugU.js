@@ -1,0 +1,1 @@
+import{a as e}from"./auth-CBJYZc2i.js";async function t(t){return e()}export{t};

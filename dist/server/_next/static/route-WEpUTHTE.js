@@ -1,0 +1,1 @@
+import{i as e,o as t,s as n,t as r}from"./auth-CBJYZc2i.js";import{n as i}from"./server-I_XVaLDc.js";async function a(a){if(!t(a))return i.json({error:`Permintaan tidak diizinkan.`},{status:403});await n(a.cookies.get(r)?.value);let o=i.redirect(new URL(`/`,a.url),303);return e(o),o}export{a as POST};

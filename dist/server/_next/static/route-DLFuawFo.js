@@ -1,0 +1,1 @@
+import{n as e}from"./server-I_XVaLDc.js";async function t(){return e.json({status:`ok`,service:`padma-shri-ai-tender-pl`,version:`2.0-production`,timestamp:new Date().toISOString()},{headers:{"cache-control":`no-store`}})}export{t as GET};
