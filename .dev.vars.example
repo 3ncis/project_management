@@ -1,0 +1,6 @@
+# Copy to .dev.vars for the local Cloudflare/Vinext runtime. Never commit .dev.vars.
+GOOGLE_CLIENT_ID=
+GOOGLE_CLIENT_SECRET=
+GOOGLE_REDIRECT_URI=http://localhost:3000/api/auth/google/callback
+# Generate 32 random bytes encoded as 64 hex characters. See docs/GOOGLE-LOGIN.md.
+OAUTH_SESSION_SECRET=

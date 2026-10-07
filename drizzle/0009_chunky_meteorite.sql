@@ -1,0 +1,1 @@
+ALTER TABLE `procurement_sources` ADD `deleted_at` text;
