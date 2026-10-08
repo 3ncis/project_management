@@ -1,28 +1,19 @@
-FROM node:22-alpine AS base
+FROM node:22-bookworm-slim
 
-FROM base AS deps
 WORKDIR /app
-COPY package.json package-lock.json* yarn.lock* pnpm-lock.json* bun.lockb* ./
-RUN npm ci
 
-FROM base AS builder
-WORKDIR /app
-COPY --from=deps /app/node_modules ./node_modules
+# Install dependencies
+COPY package.json ./
+RUN npm install
+
+# Copy your source code
 COPY . .
-RUN npm run build
 
-FROM base AS runner
-WORKDIR /app
-
-ENV NODE_ENV=production
+# Force the server to listen on all IP addresses so Docker can route traffic
+ENV HOST=0.0.0.0
 ENV PORT=3000
-ENV HOSTNAME="0.0.0.0"
-
-COPY --from=builder /app/package.json ./package.json
-COPY --from=builder /app/node_modules ./node_modules
-COPY --from=builder /app/dist ./dist
-COPY --from=builder /app/.next ./.next
 
 EXPOSE 3000
 
-CMD ["npm", "run", "start"]
+# Run exactly like you do on your local machine
+CMD ["npm", "run", "dev", "--", "--host", "0.0.0.0", "--port", "3000"]
